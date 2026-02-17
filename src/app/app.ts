@@ -5,7 +5,7 @@ import { Tareas } from './services/tareas';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,
+  imports: [
     FormsModule
   ],
   templateUrl: './app.html',
